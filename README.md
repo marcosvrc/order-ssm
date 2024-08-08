@@ -41,10 +41,10 @@ Quando usar o Spring State Machine?
 - **Sistemas com estados finitos:** Quando o sistema pode estar em um número limitado de estados.
 
 Em resumo, o Spring State Machine é uma ferramenta poderosa para modelar e gerenciar sistemas com estados. Se você precisa lidar com processos complexos e deseja tornar seu código mais organizado e fácil de manter, o Spring State Machine é uma excelente opção.
-
+<div id='sobre-projeto'/>  
 
 ### 2. Sobre o projeto
-<div id='sobre-projeto'/>  
+
 
 O projeto tem como objetivo utilizar o spring state machine para implementar uma saga orquestrada de pedido. Ele foi baseado no vídeo tutorial apresentado pela Giuliana Bezerra no [link youtube](https://www.youtube.com/watch?v=QorhhL0XETI). Abaixo é mostrando o diagrama de estado que será utilizado.
 
@@ -56,9 +56,9 @@ Os fluxos que serão executados são:
 2. NEW -> VALIDATED -> PAID -> CANCELLED
 3. NEW -> CANCEL
 4. NEW -> VALIDATED -> CANCELLED
+<div id='como-executar'/>  
 
 ### 3. Como executar
-<div id='como-executar'/>  
 
 Rodar o projeto spring boot e depois acessar o swagger gerado pela aplicação conforme a url
 
